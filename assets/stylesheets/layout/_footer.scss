@@ -1,0 +1,31 @@
+.footer {
+  background-color: $dodgerBlue;
+  bottom: 0;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  &__link {
+    color: $white;
+    margin-left: 10px;
+    line-height: 1;
+    position: relative;
+    &--with-separator {
+      &:after {
+        content: "|";
+        display: block;
+        top: 3px;
+        right: -7px;
+        position: absolute;
+      }
+      &:hover {
+        &:after {
+          color: $white;
+        }
+      }
+    }
+    &:hover {
+      color: $malachite;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.instruction {
+  color: $white;
+  padding-top: 40px;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+@include respond-to('phone-horizontal') {
+  .instruction {
+    font-size: 25px;
+    padding-top: 100px;
+    margin-bottom: 10px;
+  }
+}

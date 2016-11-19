@@ -1,0 +1,11 @@
+.current-question {
+  color: $white;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+@include respond-to('phone-horizontal') {
+  .current-question {
+    font-size: 50px;
+  }
+}

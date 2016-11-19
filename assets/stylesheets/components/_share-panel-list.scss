@@ -1,0 +1,20 @@
+.share-panel-list {
+  margin-bottom: 50px;
+  &__item {
+    display: inline-block;
+    background-color: $dodgerBlue;
+    margin-left: 18px;
+    width: 46px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  &__link {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+  }
+}

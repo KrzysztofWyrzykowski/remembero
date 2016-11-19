@@ -1,0 +1,16 @@
+.input-field {
+  @include placeholder {
+    color: $wildBlue;
+  }
+
+  color: $wildBlue;
+  font-size: 15px;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #fa3b4d;
+  padding-bottom: 10px;
+  outline: 0;
+  text-align: center;
+  margin-bottom: 45px;
+  width: 100%;
+}

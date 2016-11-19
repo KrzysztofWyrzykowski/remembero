@@ -1,0 +1,48 @@
+@import 'reset';
+@import 'variables';
+@import 'typography';
+@import 'list';
+
+body {
+  @include clearfix;
+  background-color: $cloudBurst;
+  color: $white;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1;
+  position: relative;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: top;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+strong {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
