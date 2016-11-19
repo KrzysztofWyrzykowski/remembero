@@ -14,7 +14,7 @@ const EndScreen = ({level, points}) => (
 
       <SharePanel />
 
-      <a href="/" className="button">Try again</a>
+      <a href="/remembero" className="button">Try again</a>
     </div>
   </div>
 );
