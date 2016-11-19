@@ -10,14 +10,14 @@ class SharePanel extends React.Component {
   }
 
   _onTwitterHandler() {
-    window.open('https://twitter.com/intent/tweet?text=Check out Remembero, a game where you need to train your memory to score high! http://git.io/remembero by @kwyrzykowski');
+    window.open('https://twitter.com/intent/tweet?text=Check out Remembero, a game where you need to train your memory to score high! https://goo.gl/EJzpu9 by @kwyrzykowski');
   }
 
   _onFacebookHandler() {
     FB.ui({
       method: 'feed',
       name: 'Remembero',
-      link: 'https://remembero.github.io/',
+      link: 'https://goo.gl/EJzpu9',
       caption: 'Remembero - exercise your memory',
       description: 'Check out Remembero, a game where you need to train your memory to score high!',
       message: 'Message here'
