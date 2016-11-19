@@ -92,7 +92,7 @@ class GameEngine extends React.Component {
         <div className="layout__wrapper">
           <header className="header">
             <Logo />
-          </header
+          </header>
 
           <div className="layout__left">
             <Score points={this.state.points} />
